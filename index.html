@@ -1,0 +1,73 @@
+<!-- ////////////////////////////////////////// -->
+<!--
+ye pizza
+  __
+// ""-.._
+||  (_)  _ "-._
+||    _ (_)    '-.
+||   (_)   __..-'
+\\__..-""                  -->
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>order yer pizza</title>
+    <link rel="icon" href="IMG/heart.png">
+  </head>
+  <body>
+     <div class="container">
+       <div class="row">
+         <div class="col-md-4" id="pizzapic">
+            <form id="order-form">
+            <div class="form-group">
+              <label for="size">what kinda pizza:</label>
+
+              <hr noshade>
+              <select id="size" class="custom-select">
+               <option value="s">SMALL  $10</option>
+               <option value="m">MEDIUM $14</option>
+               <option value="l">LARGE $18</option>
+             </select>
+             </div>
+            <center>
+         <div class="col-md-8">
+           <div class="reveal" class="sendColor" style="display: none;">
+             <p><b>pizza ordered!!!!!</b></p>
+             <p>TOTAL: <span id="price"></span></p>
+           </div>
+         </div>
+       </center>
+
+      <div class="form-group">
+          <br>
+          <br><br>
+          <br><br>
+            <center><label for="toppings">add toppings:</label></center>
+  <hr noshade>
+          <br>
+            <div class=textalign>
+              <input type="checkbox" name="toppings" value="2"> tomato <img src="IMG/tomato.png"><br>
+              <input type="checkbox" name="toppings" value="2"> bacon <img src="IMG/bacon.png"><br>
+              <input type="checkbox" name="toppings" value="2"> ham <img src="IMG/ham.png"><br>
+              <input type="checkbox" name="toppings" value="2"> sausage <img src="IMG/sausage.png"><br>
+              <input type="checkbox" name="toppings" value="3"> anchovies <img src="IMG/anchovy.png"><br>
+              <input type="checkbox" name="toppings" value="3"> spinach <img src="IMG/spinach.png"><br>
+              <input type="checkbox" name="toppings" value="3"> pepperoni <img src="IMG/pepperoni.png"><br>
+            </div>
+          </center>
+          <br>
+          <button type="submit">
+            <div id="sendColor"><b>PLACE ORDER</b>
+            </div>
+          </button>
+          </form>
+        </div>
+       </div>
+      </div>
+   </body>
+  </html>

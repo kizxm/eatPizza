@@ -1,0 +1,20 @@
+h2 {
+  width: 320px;
+}
+#textalign {
+  text-align: left;
+}
+#pizzapic {
+  background-image: url(../IMG/pizza.png);
+  background-repeat: no-repeat;
+}
+#sendColor {
+  color: #e272ac
+}
+select {
+  color: #e272ac;
+  text-align: center;
+}
+.reveal {
+  display: block;
+}
