@@ -1,22 +1,32 @@
-Kira's Pizza Page
+# _{pizza site}_
 
-Pretty cool site for ordering the best pizza ever
+#### _{mock-up pizza ordering site}, {7-27-2017}_
 
-By Kira Loo
+#### By _**{kira}**_
 
-Setup/Installation Requirements
+## Description
 
-Open in an internet explorer, it is a simple website
+_{pizza website where you can calculate the cost of a pizza depending on size and amount of toppings one wishes to purchase. }_
 
-Support and contact details
-_email >>> kizxm@yahoo.com_
+## Setup/Installation Requirements
 
-Technologies Used
+* _choose pizza size_
+* _choose pizza topping_
+* _order pizza dude_
+ of your application.  Share any workarounds that are in place. }_
 
-HTML, CSS, Bootstrap, Javascript, Jquery, Atom Texteditor
-IMAGES BY KIRA ~~
+## Support and contact details
 
-Copyright (c) 2017 Kira
+_{>> email kizxm@yahoo.com}_
+
+## Technologies Used
+
+_{HTML, JAVASCRIPT, CSS}_
+
+### License
+
+Copyright (c) 2015 **_{Kira}_**
+IMAGES BY KIRA
 <!--
  __
 // ""-.._
